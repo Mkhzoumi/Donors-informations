@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+    background-image: url(../img/donate-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgba(96, 96, 96,.8);
+    width: 100%;
+    height: 70px;
+}
+header h1{
+    
+    text-align: center;
+    font-size: 2em;
+    padding-top: 15px;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns:2fr 2fr ;
+    column-gap: 100px;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 6%;
+}
+
+#form{
+    background-color: rgba(96, 96, 96,.8);
+    padding: 2% 3%;
+    width: 90%;
+    height: 7em;
+   
+}
+#form label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#form input{
+    
+    width: 50%;
+    height: 24px;
+ 
+    float: right;
+ 
+    
+}
+
+#form  select{
+    width: 50%;
+    height: 24px;
+
+    float: right;
+}
+
+#submit{
+    float: right;
+    margin-top: 4px;
+    background-color: black;
+    color:#eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+
+#container{
+    background-color: rgba(96, 96, 96,.8);
+    padding: 3% 1%;
+}
+table {
+    border: solid 2px;
+    width: 100%;
+    margin-bottom: 15px;
+    
+  }
+  
+  th, td {
+    padding: 8px;
+    border: solid 2px ;
+    text-align: center;
+  }
+
+  #container p {
+      text-align: center;
+  }
+
+  
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(96, 96, 96,.8);
+    width: 100%;
+    height: 70px;
+
+}
+footer p{
+    text-align: center;
+    font-size: large;
+    padding-top: 30px;
+    color: #eee;
+
+}
